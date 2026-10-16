@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>腾讯云抢购控制台</title>
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="brand">⚡ 腾讯云抢购控制台</div>
+  <div class="status-pills">
+    <span id="pill-login" class="pill">登录采集：—</span>
+    <span id="pill-snipe" class="pill">抢购：—</span>
+  </div>
+</header>
+
+<nav class="tabs">
+  <button class="tab-btn active" data-tab="accounts">账号</button>
+  <button class="tab-btn" data-tab="sessions">场次</button>
+  <button class="tab-btn" data-tab="snipe">抢购</button>
+  <button class="tab-btn" data-tab="log">日志</button>
+</nav>
+
+<main>
+  <!-- 账号管理 -->
+  <section id="panel-accounts" class="tab-panel active">
+    <div class="card">
+      <h2>扫码登录采集账号 <span class="hint">（每个账号运行一次，弹出 Edge 扫码后自动保存 cookie）</span></h2>
+      <div class="row">
+        <input id="login-name" type="text" placeholder="账号备注名，如：账号1">
+        <button id="btn-login" class="btn primary">开始扫码登录</button>
+        <button id="btn-login-stop" class="btn danger">停止采集</button>
+        <span id="login-status" class="inline-status"></span>
+      </div>
+    </div>
+    <div class="card">
+      <h2>已保存账号（<span id="account-count">0</span> 个）<button id="btn-check-cookies" class="btn primary sm" style="margin-left:12px;">🔍 检测Cookie有效性</button><span id="check-status" class="inline-status"></span></h2>
+      <table class="grid">
+        <thead><tr><th>备注名</th><th>uin</th><th>保存时间</th><th>Cookie 数</th><th>设备指纹</th><th>Cookie状态</th><th>抢购区域</th><th>操作</th></tr></thead>
+        <tbody id="account-tbody"></tbody>
+      </table>
+      <p class="warn">⚠️ <code>accounts.json</code> 含登录凭证，注意保密，别外传。</p>
+    </div>
+  </section>
+
+  <!-- 场次监控 -->
+  <section id="panel-sessions" class="tab-panel">
+    <div class="card">
+      <h2>秒杀场次与商品</h2>
+      <div class="row">
+        <button id="btn-refresh-sessions" class="btn primary">刷新场次</button>
+        <span id="sessions-status" class="inline-status"></span>
+      </div>
+      <div id="sessions-list"></div>
+      <p class="hint">点击某行商品可自动填入「抢购」页的目标商品。</p>
+    </div>
+  </section>
+
+  <!-- 抢购控制 -->
+  <section id="panel-snipe" class="tab-panel">
+    <div class="card">
+      <h2>抢购配置</h2>
+      <div class="form-grid">
+        <label>目标商品 <input id="cfg-goods" type="text" value="4核4G3M" placeholder="商品名关键字或 act_id"></label>
+        <label>场次时间（可留空自动）<input id="cfg-time" type="text" placeholder="如 15:00:00"></label>
+        <label>提前开抢毫秒 <input id="cfg-lead" type="number" value="0"></label>
+        <label>抢购区域 <input id="cfg-regions" type="text" value="1" placeholder="1=广州 4=上海 8=北京，逗号分隔多区"></label>
+        <label>最大重试次数 <input id="cfg-retries" type="number" value="30"></label>
+        <label>重试间隔 ms <input id="cfg-retry-ms" type="number" value="10"></label>
+        <label>波浪每批账号数（0=关闭） <input id="cfg-wave-size" type="number" value="4"></label>
+        <label>波浪间隔 ms <input id="cfg-wave-gap" type="number" value="1200"></label>
+        <label>波浪内每账号尝试次数 <input id="cfg-wave-attempts" type="number" value="3"></label>
+      </div>
+      <div class="row"><button id="btn-config-save" class="btn sm">保存配置</button><span class="hint">点击后写入后端 config.json，刷新/换浏览器全局生效</span></div>
+      <label class="check"><input id="cfg-dry" type="checkbox"> 只监控不下单（--dry-run，推荐先试跑）</label>
+      <div class="card sub">
+        <h3>参与账号</h3>
+        <div id="only-accounts" class="checks"></div>
+      </div>
+      <div class="row">
+        <button id="btn-snipe-start" class="btn primary big">▶ 启动监控/抢购</button>
+        <button id="btn-snipe-stop" class="btn danger big">■ 停止</button>
+        <span id="snipe-status" class="inline-status"></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- 日志 -->
+  <section id="panel-log" class="tab-panel">
+    <div class="card">
+      <div class="row">
+        <h2>实时日志</h2>
+        <label class="check"><input id="log-autoscroll" type="checkbox" checked> 自动滚动</label>
+        <button id="btn-log-clear" class="btn sm">清空显示</button>
+      </div>
+      <pre id="log-view" class="log-view"></pre>
+    </div>
+  </section>
+</main>
+
+<script src="/app.js"></script>
+</body>
+</html>

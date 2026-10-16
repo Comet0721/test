@@ -1,0 +1,8 @@
+node_modules/
+node-v24.16.0-win-x64/
+runtime/
+accounts.json
+sniper-log.txt
+*.log
+node_modules.bin-*
+node-v24.16.0-win-x64-*
