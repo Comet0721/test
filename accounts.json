@@ -1,0 +1,421 @@
+[
+  {
+    "name": "1",
+    "uin": "o100026313126",
+    "savedAt": "2026-09-02T03:12:32.589Z",
+    "cookies": [
+      {
+        "name": "qcloud_uid",
+        "value": "Mdy8L7s6Z6YQ",
+        "domain": ".cloud.tencent.com",
+        "path": "/",
+        "expires": 1822878728.375564,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "language",
+        "value": "zh",
+        "domain": ".cloud.tencent.com",
+        "path": "/",
+        "expires": 1803870746.633535,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "qcmainCSRFToken",
+        "value": "KbW8XGDKHZF3",
+        "domain": ".cloud.tencent.com",
+        "path": "/",
+        "expires": -1,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "qcloud_visitId",
+        "value": "95d623b712c6591849d519afa7c2085b",
+        "domain": ".tencent.com",
+        "path": "/",
+        "expires": -1,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "qcloud_from",
+        "value": "qcloud.directEnter.login-1788318728758",
+        "domain": ".tencent.com",
+        "path": "/",
+        "expires": 1790910728,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "sajssdk_2015_cross_new_user",
+        "value": "1",
+        "domain": ".tencent.com",
+        "path": "/",
+        "expires": 1788364799,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "_gcl_au",
+        "value": "1.1.201454907.1788318729",
+        "domain": ".tencent.com",
+        "path": "/",
+        "expires": 1796094729,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "qcstats_seo_keywords",
+        "value": "%E5%93%81%E7%89%8C%E8%AF%8D-%E5%93%81%E7%89%8C%E8%AF%8D-%E7%99%BB%E5%BD%95",
+        "domain": ".tencent.com",
+        "path": "/",
+        "expires": 1790910729,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "qcact_fingerprint",
+        "value": "fp_server_a58412e9a80d_mtjisqqa",
+        "domain": "act-api.cloud.tencent.com",
+        "path": "/",
+        "expires": 1788405129.367469,
+        "httpOnly": true,
+        "secure": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "trafficParams",
+        "value": "***%24%3Btimestamp%3D1788318729302%3Bfrom_type%3Dserver%3Btrack%3Dc319dd1c-d308-4154-a077-0e6a15cabf39%3B%24***",
+        "domain": ".cloud.tencent.com",
+        "path": "/",
+        "expires": 1793502729,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "ewpUid",
+        "value": "00f2a1e9-9621-4213-9368-9f93ee4f11f6",
+        "domain": ".ewp.cloud.tencent.com",
+        "path": "/",
+        "expires": 1819854729.383006,
+        "httpOnly": true,
+        "secure": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "ewpUid",
+        "value": "00f2a1e9-9621-4213-9368-9f93ee4f11f6",
+        "domain": ".cloud.tencent.com",
+        "path": "/",
+        "expires": 1819854729,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "id",
+        "value": "222878f817100192||t=1788318729|et=730|cs=002213fd4851eebf794b2c4f12",
+        "domain": ".doubleclick.net",
+        "path": "/",
+        "expires": 1822878748.441959,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "login_intent_id",
+        "value": "1a0601a42af_b9567da579cb",
+        "domain": ".cloud.tencent.com",
+        "path": "/",
+        "expires": 1788319333,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "loginType",
+        "value": "wx",
+        "domain": ".cloud.tencent.com",
+        "path": "/",
+        "expires": 1803870739.682961,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "qcloud_outsite_refer",
+        "value": "https://open.weixin.qq.com",
+        "domain": ".cloud.tencent.com",
+        "path": "/",
+        "expires": 1788320538,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "intl",
+        "value": "1",
+        "domain": ".cloud.tencent.com",
+        "path": "/",
+        "expires": 1790910748.480543,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "uin",
+        "value": "o100026313126",
+        "domain": ".cloud.tencent.com",
+        "path": "/",
+        "expires": -1,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "tinyid",
+        "value": "144115354321245204",
+        "domain": ".cloud.tencent.com",
+        "path": "/",
+        "expires": -1,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "skey",
+        "value": "q0zT1zYP8L1kISYpNY6ITELifQlPaWInZQ*li3ViBkw_",
+        "domain": ".cloud.tencent.com",
+        "path": "/",
+        "expires": -1,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "qcmainCSRFToken",
+        "value": "SkgWQ4fBOzl",
+        "domain": ".qcloud.com",
+        "path": "/",
+        "expires": -1,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "intl",
+        "value": "",
+        "domain": ".qcloud.com",
+        "path": "/",
+        "expires": -1,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "uin",
+        "value": "100026313126",
+        "domain": ".qcloud.com",
+        "path": "/",
+        "expires": -1,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "skey",
+        "value": "q0zT1zYP8L1kISYpNY6ITELifQlPaWInZQ*li3ViBkw_",
+        "domain": ".qcloud.com",
+        "path": "/",
+        "expires": -1,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "qcmainCSRFToken",
+        "value": "H1lZQ4GBdMg",
+        "domain": ".cloud.tencent.cn",
+        "path": "/",
+        "expires": -1,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "intl",
+        "value": "",
+        "domain": ".cloud.tencent.cn",
+        "path": "/",
+        "expires": -1,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "uin",
+        "value": "100026313126",
+        "domain": ".cloud.tencent.cn",
+        "path": "/",
+        "expires": -1,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "skey",
+        "value": "q0zT1zYP8L1kISYpNY6ITELifQlPaWInZQ*li3ViBkw_",
+        "domain": ".cloud.tencent.cn",
+        "path": "/",
+        "expires": -1,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "lastLoginIdentity",
+        "value": "5c120b0a0563b69a02a51c5c5a055ebb",
+        "domain": ".cloud.tencent.com",
+        "path": "/",
+        "expires": 1803870747.490528,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "refreshSession",
+        "value": "1",
+        "domain": ".cloud.tencent.com",
+        "path": "/",
+        "expires": -1,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "nick",
+        "value": "bygirl",
+        "domain": ".cloud.tencent.com",
+        "path": "/",
+        "expires": -1,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "sensorsdata2015jssdkcross",
+        "value": "%7B%22distinct_id%22%3A%22100026313126%22%2C%22first_id%22%3A%221a0601a424e295-0cb50fa9790305-4c657b58-921600-1a0601a424fa95%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E7%A4%BE%E4%BA%A4%E7%BD%91%E7%AB%99%E6%B5%81%E9%87%8F%22%7D%2C%22identities%22%3A%22eyIkaWRlbnRpdHlfY29va2llX2lkIjoiMWEwNjAxYTQyNGUyOTUtMGNiNTBmYTk3OTAzMDUtNGM2NTdiNTgtOTIxNjAwLTFhMDYwMWE0MjRmYTk1IiwiJGlkZW50aXR5X2xvZ2luX2lkIjoiMTAwMDI2MzEzMTI2In0%3D%22%2C%22history_login_id%22%3A%7B%22name%22%3A%22%24identity_login_id%22%2C%22value%22%3A%22100026313126%22%7D%7D",
+        "domain": ".tencent.com",
+        "path": "/",
+        "expires": 1819422747,
+        "httpOnly": false,
+        "secure": false,
+        "sameSite": "Lax"
+      },
+      {
+        "name": "qcstats_ouin-100026313126",
+        "value": "100026313126",
+        "domain": ".tencent.com",
+        "path": "/",
+        "expires": 1788405147,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "qcstats_utype-100026313126",
+        "value": "0",
+        "domain": ".tencent.com",
+        "path": "/",
+        "expires": 1788405147,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "saas_synced_session",
+        "value": "100026313126%7Cq0zT1zYP8L1kISYpNY6ITELifQlPaWInZQ*li3ViBkw_",
+        "domain": ".cloud.tencent.com",
+        "path": "/",
+        "expires": -1,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "uin",
+        "value": "100026313126",
+        "domain": ".dnspod.cn",
+        "path": "/",
+        "expires": 1788491548.73479,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "skey",
+        "value": "q0zT1zYP8L1kISYpNY6ITELifQlPaWInZQ*li3ViBkw_",
+        "domain": ".dnspod.cn",
+        "path": "/",
+        "expires": 1788491548.734827,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "csrfKey",
+        "value": "a5ca1ae57dccc47a5dd90b3f2a2038ea472916a6",
+        "domain": ".dnspod.cn",
+        "path": "/",
+        "expires": -1,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "loginFlag",
+        "value": "1",
+        "domain": ".dnspod.cn",
+        "path": "/",
+        "expires": 1788491548.73488,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "loginSync",
+        "value": "1",
+        "domain": ".dnspod.cn",
+        "path": "/",
+        "expires": 1788491548.734905,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+      },
+      {
+        "name": "isSyncLogin",
+        "value": "1",
+        "domain": ".dnspod.cn",
+        "path": "/",
+        "expires": 1788491548.734931,
+        "httpOnly": false,
+        "secure": true,
+        "sameSite": "None"
+      }
+    ],
+    "deviceToken": "%7B%22distinct_id%22%3A%22100026313126%22%2C%22first_id%22%3A%221a0601a424e295-0cb50fa9790305-4c657b58-921600-1a0601a424fa95%22%2C%22props%22%3A%7B%22%24latest_traffic_source_type%22%3A%22%E7%9B%B4%E6%8E%A5%E6%B5%81%E9%87%8F%22%7D%2C%22identities%22%3A%22eyIkaWRlbnRpdHlfY29va2llX2lkIjoiMWEwNjAxYTQyNGUyOTUtMGNiNTBmYTk3OTAzMDUtNGM2NTdiNTgtOTIxNjAwLTFhMDYwMWE0MjRmYTk1IiwiJGlkZW50aXR5X2xvZ2luX2lkIjoiMTAwMDI2MzEzMTI2In0%3D%22%2C%22history_login_id%22%3A%7B%22name%22%3A%22%24identity_login_id%22%2C%22value%22%3A%22100026313126%22%7D%7D",
+    "regions": []
+  }
+]
